@@ -107,7 +107,7 @@
             if (count < 10) {
                 count++;
             }
-        },500);
+        },700);
 
         function createBigBubble() { 
             const rand=Math.random()*themes.length;
@@ -128,7 +128,7 @@
             bubble.style.left = `${x}px`;
 
             bubble.addEventListener("click", () => {
-                    score+=10;
+                    score+=5;
               
                 document.querySelector("body").style.backgroundColor = theme.background;
 
